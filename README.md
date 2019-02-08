@@ -1,9 +1,8 @@
 # tmux
----
 
-   * [what is this?](#what-is-this)
-   * [install](#install)
-   * [command](#command)
+* [what is this?](#what-is-this)
+* [install](#install)
+* [command](#command)
 
 ## What is this?
 asdfa
