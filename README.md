@@ -1,18 +1,14 @@
 # tmux
 ---
 
-   * [what is this?](#aiueo)
-   * [how to use](#aiueo)
-      * [install](##install)
-      * [command](##command)
+   * [what is this?](#what-is-this)
+   * [install](#install)
+   * [command](#command)
 
-# What is this?
+## What is this?
 asdfa
 asdfas
 
-# how to use
-asdfas
-asfdas
 
 ## install
 asdfasfas
