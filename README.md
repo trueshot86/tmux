@@ -11,7 +11,7 @@ this is my personal terminal environment tool.
 
 ## install
 ```
-$ sh install.sh
+$ source install.sh
 ```
 
 ## command

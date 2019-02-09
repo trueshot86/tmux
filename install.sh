@@ -1,10 +1,28 @@
 #!/bin/bash
 
 current_dir=$(dirname $(readlink -f $0))
+OS=""
+
+get_os_distribution(){
+    if [ -e /etc/lsb-release ] ; then
+        OS="ubuntu"
+    elif [ -e /etc/redhat-release ] ; then
+        OS="centos"
+    else
+	echo "this tool can use at Ubuntu or CentOS"
+        exit 1
+    fi
+
+}
 
 require_items(){
-    apt updatea
-    apt install make gcc libevent-dev ncurses-dev xsel locales -y
+    if [ ${OS} == "ubuntu" ] ; then
+        apt updatea
+        apt install make gcc libevent-dev ncurses-dev xsel locales -y
+    elif [ ${OS} == "centos" ] ; then
+	yum install epel-release -y
+        yum install make gcc libevent-devel ncurses-devel xsel locales -y
+    fi
 }
 
 set_locale(){
@@ -25,6 +43,7 @@ put_configs(){
 }
 
 main(){
+    get_os_distribution
     require_items
     set_locale
     build_install
