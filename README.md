@@ -13,6 +13,9 @@ this is my personal terminal environment tool.
 ```
 $ source install.sh
 ```
+```
+$ tmux
+```
 
 ## command
 - C-b c
