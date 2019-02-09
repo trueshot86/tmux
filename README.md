@@ -5,12 +5,33 @@
 * [command](#command)
 
 ## What is this?
-asdfa
-asdfas
+this is my personal terminal environment tool.
+
 
 
 ## install
-asdfasfas
+```
+$ sh install.sh
+```
 
 ## command
-safdasdfas
+- C-b c
+  - create new window
+
+- C-b space
+  - copy-mode (move vim mode 'hjkl'. select: space. copy: space)
+
+- C-b %
+  - split vertical panel.
+
+- C-b "
+  - split Horizontal panel.
+
+- C-b q
+  - move panel.
+
+- C-b x
+  - delete active panel.
+
+- C-b &
+  - delete active window.
