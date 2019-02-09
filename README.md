@@ -9,7 +9,7 @@ this is my personal terminal environment tool.
 
 
 
-## install
+## install & exec
 ```
 $ source install.sh
 ```
