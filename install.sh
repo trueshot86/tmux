@@ -3,7 +3,7 @@
 current_dir=$(dirname $(readlink -f $0))
 
 require_items(){
-    apt install libevent-dev ncurses-devel gcc xsel -y
+    apt install make gcc libevent-dev ncurses-dev xsel -y
 }
 
 build_install(){
