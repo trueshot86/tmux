@@ -22,7 +22,7 @@ $ tmux
   - create new window
 
 - C-b space
-  - copy-mode (move vim mode 'hjkl'. select: space. copy: space)
+  - copy-mode (move vim mode 'hjkl'. select: space. copy: Enter)
 
 - C-b %
   - split vertical panel.
