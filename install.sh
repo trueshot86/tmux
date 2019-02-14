@@ -12,7 +12,6 @@ get_os_distribution(){
 	echo "this tool can use at Ubuntu or CentOS"
         exit 1
     fi
-
 }
 
 require_items(){
@@ -49,6 +48,7 @@ main(){
     build_install
     put_configs
     echo "install done."
+    echo "Don't forget to do export LANG=ja_JP.utf8"
 }
 
 main
