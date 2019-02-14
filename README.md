@@ -11,7 +11,8 @@ this is my personal terminal environment tool.
 
 ## install & exec
 ```
-$ source install.sh
+$ chmod +x install.sh
+$ ./install.sh
 ```
 ```
 $ tmux
